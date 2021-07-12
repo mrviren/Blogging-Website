@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Zen+Loop:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Open+Sans&family=Zen+Loop:ital@1&display=swap');
+:root {
+    --main-bg-color: indigo;
+    --font1: 'Baloo Bhaina 2', cursive;
+    --font2: 'Zen Loop', cursive;
+    --font3: 'Open Sans', sans-serif;
+}
+.font1{
+    font-family: var(--font1);
+
+}
+.font2{
+    font-family: var(--font2);
+ 
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    padding: 0px 20px;
+    padding-top: 3px;
+    border:3px black;
+    border-radius: 6px;
+    font-size: 17px;
+    font-family: var(--font3) ;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.btn:hover{
+    color: ghostwhite;
+    background-color: var(--main-bg-color);
+}
+
+.form-input{ 
+    padding: 0px 5px;
+    padding-top: 3px;
+    font-size: 17px;
+    border: 3px black;
+    border-radius: 6px;
+    margin: 0 13px;
+    font-family: var(--font3);
+
+}
+.mtb{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}

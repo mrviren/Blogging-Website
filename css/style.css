@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    margin-top: 26px;
+    font-family: var(--font1);
+    height: 75px;
+    background-color: floralwhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.nav-left{
+font-size: 35px;
+font-weight: 700;
+text-decoration: hotpink underline ;
+display: flex;
+}
+.nav-left span{
+    font-size: 35px;
+    padding-top: 11px;
+}
+.nav-left ul li{
+list-style: none;
+margin: 0 15px;
+font-family: var(--font2);
+transition: all 0.4s ease-in-out;
+
+
+}   
+.nav-left ul li:hover{
+    
+    font-weight: bolder ;
+    background-color: lightslategray;
+    color: whitesmoke;
+}
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    margin: 0 75px;
+    font-weight: bolder;
+
+}
+.nav-left ul a{
+   /* text-decoration: none; */
+    color: black;
+}
+.nav-right{
+
+}
+.content{
+    height: 400px;
+ /*   background-color: bisque;*/
+    background-color: ghostwhite; 
+    display: flex;
+    padding: 8px;
+    margin-top: 30px; 
+    
+    position: relative;
+    border-radius: 10px;
+}
+.content::after{
+    content: "";
+  /*  background-image: url(https://labs.sogeti.com/wp-content/uploads/2021/05/GettyImages-987365514.jpg);*/
+    position: absolute;
+    height: inherit;
+    width: 100%;
+    opacity: 0.15;
+}
+
+.content-right{
+/*width: 50%;*/
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content-right img{
+    height: 350px;
+    border:aqua 2px;
+    border-radius: 200px;
+    margin-top: 25px;
+   
+
+
+}
+
+.content-left{
+    font-family: var(--font2);
+    font-weight: 800;
+    color: deeppink;
+    /*width: 50%;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px;
+
+
+}
+
+.footer{
+    height: 50px;
+    background-color:rgb(47, 255, 158);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+ } 
+.h-articles{
+    padding-top: 16px;
+    margin-top: 20px;
+    background-color:rgb(230, 230, 216);
+
+
+
+ }
+.h-article{
+    display: flex;
+    margin: 25px;
+
+}
+.h-article-content{
+align-self: center;
+padding: 25px;
+}
+.h-articleimg{
+    width: 295px;
+}
+.h-article-content a{
+    text-decoration: none;
+}
