@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Zen+Loop:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Open+Sans&family=Zen+Loop:ital@1&display=swap');
 :root {
-    --main-bg-color: indigo;
+    --main-bg-color: orange;
     --font1: 'Baloo Bhaina 2', cursive;
     --font2: 'Zen Loop', cursive;
     --font3: 'Open Sans', sans-serif;
@@ -53,4 +53,18 @@
 .mtb{
     margin-bottom: 12px;
     margin-top: 12px;
+}
+.form-box input, textarea{
+    width: 55vw;
+    padding: 11px 7px;
+    margin: 7px 0px;
+    font-size: 18px;
+    font-family: var(--font1);
+    border-radius: 6px;
+    border: 2px solid var(--main-bg-color) ;
+
+}
+.mx-1{
+ margin-left: 24px;
+ max-width: 24px;   
 }

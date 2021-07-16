@@ -60,11 +60,11 @@ transition: all 0.4s ease-in-out;
     margin-top: 30px; 
     
     position: relative;
-    border-radius: 10px;
+    border-radius: 13px;
 }
 .content::after{
     content: "";
-  /*  background-image: url(https://labs.sogeti.com/wp-content/uploads/2021/05/GettyImages-987365514.jpg);*/
+   /* background-image: url(https://labs.sogeti.com/wp-content/uploads/2021/05/GettyImages-987365514.jpg); */
     position: absolute;
     height: inherit;
     width: 100%;
@@ -96,7 +96,7 @@ justify-content: center;
     flex-direction: column;
     justify-content: center;
     padding: 45px;
-
+    z-index: 1;
 
 }
 
